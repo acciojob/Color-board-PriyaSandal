@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 
 .square{
-
+force:true;
 transition: all 0.5s ease-in-out;
 transition-delay: 1s;
 }
