@@ -1,22 +1,22 @@
-/*  your css code here. If applicable */
-
-.square{
-force:true;
-transition: all 0.5s ease-in-out;
-transition-delay: 1s;
-}
 .container{
 	display:grid;
-	grid-template-rows: repeat(15,15px);
+	grid-template-rows: repeat(20,15px);
 	grid-template-columns: repeat(40,15px);
     gap:3px;
     justify-content: center;
-    align-item: center;
+    align-content: center;
 	border:40px solid black;
 	width:700px;
 	background:black;
 
 }
+.square{
+
+transition: all 0.5s ease-in-out;
+transition-delay: 1s;
+	force: true
+}
+
 .square:hover{
     background-color:rgb(29, 29, 29);
 	transition:none;
